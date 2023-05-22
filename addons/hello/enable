@@ -3,4 +3,5 @@
 echo "Hello there"
 touch "$SNAP_DATA/var/lock/hello_installed"
 
-cp say "$SNAP_COMMON/plugins/"
+CURRENT_DIR=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+cp "$CURRENT_DIR/say" "$SNAP_COMMON/plugins/"
