@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Hello there"
+touch "$SNAP_DATA/var/lock/hello_installed"

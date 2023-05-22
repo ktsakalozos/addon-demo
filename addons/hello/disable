@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "CU later!"
+rm "$SNAP_DATA/var/lock/hello_installed"

@@ -1,0 +1,8 @@
+microk8s-addons:
+  description: "This is a demo repo"
+  addons:
+    - name: "hello"
+      description: "This is my awesome hello addon"
+      check_status: "$SNAP_DATA/var/lock/hello_installed"
+      supported_architectures:
+        - amd64
