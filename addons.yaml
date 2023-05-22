@@ -4,5 +4,6 @@ microk8s-addons:
     - name: "hello"
       description: "This is my awesome hello addon"
       check_status: "$SNAP_DATA/var/lock/hello_installed"
+      version: "1.0"
       supported_architectures:
         - amd64
