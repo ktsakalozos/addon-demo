@@ -2,3 +2,5 @@
 
 echo "Hello there"
 touch "$SNAP_DATA/var/lock/hello_installed"
+
+cp say "$SNAP_COMMON/plugins/"
